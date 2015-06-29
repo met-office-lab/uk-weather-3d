@@ -6,11 +6,20 @@
     <meta name="description" content="Uk-weather-3d : Experimental UK weather forecast viewer using threejs and modified WCS server">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
 
     <title>Uk-weather-3d</title>
   </head>
 
   <body>
+      <div class="btn" title="Toggle camera macro playback" href="#" style="height: auto; position: absolute; top:2%; left: 60px" onclick="toggleMacro()">
+        <i class="fa fa-video-camera fa-3x"></i>
+      </div>
+
+      <div class="btn" thisTileN="View separte levels app" href="#" style="height: auto; position: absolute; top:2%; left: 120px" onclick="window.location.href='http://julydemo.3dvis.informaticslab.co.uk/uk-weather-3d/view3d/'">
+        <i class="fa fa-align-justify fa-3x"></i>
+      </div>  
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
@@ -26,6 +35,7 @@
             </section>
         </header>
     </div>
+
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
